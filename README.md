@@ -7,26 +7,11 @@ Läuft komplett **im Browser, offline, ohne Installation und ohne Konto**. Alle 
 
 ---
 
-## Starten
-
-- **Auf dem PC:** `index.html` doppelklicken – die App öffnet sich im Browser.
-- **Mit Demo-Daten (zum Angucken):** `index.html` einmal mit `?demo` öffnen, also z. B. in der Adresszeile hinter den Dateipfad `?demo` hängen. Danach unter „Mehr“ → „Alle Daten löschen“ leer starten.
 
 ## Auf dem iPhone (empfohlen)
 
-„Zum Home-Bildschirm“ geht bei iOS nur bei http(s)-Adressen, nicht bei einer Datei aus dem Dateien-App-Ordner. Deshalb:
-
-1. Die Dateien `index.html`, `manifest.json`, `sw.js`, `icon-*.png` in einen Ordner legen.
-2. **Diesen Ordner irgendwo als statische Webseite hosten**, z. B. kostenlos bei
-   - Netlify Drop: <https://app.netlify.com/drop> (Ordner einfach in den Browser ziehen, man bekommt eine Adresse),
-   - GitHub Pages, Cloudflare Pages, Vercel o. ä.
-3. Die Adresse in **Safari** öffnen.
-4. Unten auf **Teilen** (□↑) → **„Zum Home-Bildschirm“** → **Hinzufügen**.
-   Die App startet dann im Vollbild wie eine normale App und funktioniert danach auch offline.
-
 Wichtig: Die Daten liegen lokal im Browser des jeweiligen Geräts (iPhone ist Vorratsverwalter, kein zentraler Server). Deshalb regelmäßig **Backup speichern** („Mehr“ → Backup speichern) und am Tablet/PC per „Backup laden“ einspielen. Teilen geht über AirDrop, Dateien-App, WhatsApp, Mail …
 
-Eine frei zugängliche Adresse heißt außerdem: Wer den Link kennt, sieht die Seite – die *Daten* sieht aber nur das eigene Gerät. Die Adresse einfach nicht weitergeben.
 
 ---
 
